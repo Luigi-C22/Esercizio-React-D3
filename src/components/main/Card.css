@@ -1,0 +1,25 @@
+.bgColor{
+    background: linear-gradient(to bottom, #ff0000, #00ff00);
+}
+.searchStyle{
+    border-radius: 25px;
+    font-size: 1rem;
+    font-style: italic;
+    color: white;
+}
+.priceStyle{
+    font-size: 1.2rem;
+    font-weight: 800;
+    font-style: italic;
+}
+.titleEllips {
+    display: -webkit-box; /* Abilita il layout box per il troncamento del testo */
+    -webkit-box-orient: vertical; /* Imposta l'orientamento verticale per il troncamento del testo */
+    -webkit-line-clamp: 2; /* Imposta il numero massimo di righe da visualizzare */
+    height: 2.5em; /* Imposta l'altezza a 2.5 righe */
+    overflow: hidden; /* Nasconde il contenuto oltre le 2 righe */
+    text-overflow: ellipsis; /* Aggiunge i puntini di ellipsis quando il testo viene troncato */
+  }
+  .selected{
+    border: 5px solid #ff0000 ;
+  }
